@@ -1,8 +1,7 @@
 import React from "react";
 import Card from "./Card";
-import { users } from "../Utils/usersMockData";
 
-function CardList() {
+const CardList = ({ users = [] }) => {
   return (
     <div className="card-container">
       {users.map((user) => {
@@ -21,6 +20,6 @@ function CardList() {
       </style>
     </div>
   );
-}
+};
 
 export default CardList;

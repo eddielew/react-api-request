@@ -11,7 +11,6 @@ function Card({ user }) {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
             officiis, corporis magni architecto minima unde!
           </p>
-          <button>Button 1</button>
         </div>
       </div>
       <style jsx>
